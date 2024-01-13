@@ -1,0 +1,135 @@
+* {
+    background-color: rgb(245, 191, 219);
+    font-family: 'Silkscreen', sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 1px;
+    margin-inline: 30%;
+}
+
+h3 {
+    background-color: whitesmoke;
+    text-align: center;
+    color: rgb(212, 37, 119);
+    font-size: 18px;
+    margin-inline: 25%;
+    margin-top: 1px;
+}
+
+form {
+    margin:10%;
+    margin-block: 0.5%;
+    padding: 05%;
+    background-color: rgb(245, 225, 73);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.error {
+    color: aliceblue;
+    background-color: salmon;
+}
+
+button, select, option, label, p {
+    background-color: rgb(130, 231, 245);
+    border: none;
+    font-size: 15px;
+}
+
+label, select {
+    margin-left: 5%;
+}
+
+#name {
+    background-color: rgb(130, 231, 245);
+    border: none;
+    font-size: 15px;
+    margin-left: 5%;
+    width: 60%;
+}
+
+select {
+    width: 85%;
+}
+
+p {
+    max-width: fit-content;
+    margin-bottom: 0;
+    margin-left: 03%;
+}
+
+.heart {
+    width: 13px;
+}
+
+div {
+    background-color: rgb(163, 156, 100);
+    padding-block-start: 30px;
+    margin-inline-start: 20px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+footer {
+    max-width: 80%;
+    margin-inline-start: 10%;
+    text-align: bottom right;
+    background-color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    background-color: aqua;
+    font-size: 110%;
+    margin-inline: 44%;
+    margin-top: 110%;
+  }
+  
+  a:link {
+    color: #1ca4ce;
+  }
+  
+  a:visited {
+    color: #165e7a;
+  }
+  
+  a:focus {
+    border-bottom: 1px solid;
+    background: #98dfe4;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid;
+    background: #45a9c7;
+  }
+  
+  a:active {
+    background: #014253;
+    color: #aaedfe;
+  }

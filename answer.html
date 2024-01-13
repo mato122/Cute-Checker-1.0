@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+    <section>
+
+        <div>
+            <h1 id="kel"></h1>
+
+            <h2 id="s">In a scale from 1 to 10 u are a </h2>
+
+            <h2 id="num"></h2>
+
+            <script>
+
+                function generateRandom (min, max) {
+                return Math.floor((Math.random() * (max - min + 1)) + min)
+                };
+
+                let num;
+                let output;
+                switch (generateRandom(0,10)) {
+                case 0:
+                num = "Yeah I don't think u are";
+                output = "0"
+                break;
+                case 1:
+                num = "Something is something";
+                output = "1"
+                break;
+                case 2:
+                num = "Woo two points, mind sharing";
+                output = "2"
+                break;
+                case 3:
+                num = "Uhh three *boink*";
+                output = "3"
+                break;
+                case 4:
+                num = "Yippie";
+                output = "4"
+                break;
+                case 5:
+                num = "U are half cute half un-cute";
+                output = "5"
+                break;
+                case 6:
+                num = "Well if it isn't mister cutie";
+                output = "6"
+                break;
+                case 7:
+                num = "U wish to be a bit more but at the moment u are satisfied";
+                output = "7"
+                break;
+                case 8:
+                num = "Its not that bad"
+                output = "8"
+                break;
+                case 9:
+                num = "Almost man, almost";
+                output = "9"
+                break;
+                case 10:
+                num = " 0MG Is this a [REAL] ¡¡¡cutie!!! im amazed";
+                output = "10"
+                break;
+                }
+
+                document.getElementById("kel").innerHTML = num;
+                document.getElementById("num").innerHTML = output;
+
+            </script>
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOMWmf65D17i57zBdXdgnQrgmiJBlVr5s1EFdmOF0-7-49AXfANXHoEAPoYooDkupvrYR9p6zd9DuRyx_17ZqVYUbNzlpUQlSwmEraOYs_scXGSqJ2TfJJCjub4cEkqiOfZfOdXYTSB2VXoGZKCTVbxVf0bLnbVONCVPUUAxpiaH1jJ_ZdxcTlmUwsVhed/s626/wolf.png" alt="A cute wolf gibing heart">
+        </div>
+    </section>
+    </body>
+</html>
