@@ -17,17 +17,17 @@ body {
 h1 {
     background-color: whitesmoke;
     text-align: center;
-    font-size: 26px;
+    font-size: 22px;
     margin-bottom: 1px;
-    margin-inline: 30%;
+    margin-inline: -8%;
 }
 
 h3 {
     background-color: whitesmoke;
     text-align: center;
     color: rgb(212, 37, 119);
-    font-size: 18px;
-    margin-inline: 25%;
+    font-size: 16px;
+    margin-inline: 8%;
     margin-top: 1px;
 }
 
@@ -73,7 +73,7 @@ select {
 p {
     max-width: fit-content;
     margin-bottom: 0;
-    margin-left: 03%;
+    margin-inline: 7%;
 }
 
 .heart {
@@ -107,7 +107,7 @@ a {
     padding: 2px 1px 0;
     background-color: aqua;
     font-size: 110%;
-    margin-inline: 44%;
+    margin-inline: 35%;
     margin-top: 110%;
   }
   
